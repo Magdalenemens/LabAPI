@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JWT" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="NumberToArabicText" Version="1.0.0" />
+    <PackageReference Include="QRCoder" Version="1.4.2" />
+    <PackageReference Include="QuestPDF" Version="2024.7.2" />
+
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeltaCare.Common\DeltaCare.Common.csproj" />
+    <ProjectReference Include="..\DeltaCare.DAL\DeltaCare.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BarcodeGenerator">
+      <HintPath>bin\Debug\net8.0\BarcodeGenerator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+
+
+
+
+</Project>
